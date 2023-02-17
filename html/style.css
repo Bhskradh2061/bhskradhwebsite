@@ -1,0 +1,288 @@
+body {
+  font-family: Arial, sans-serif;
+  background:url(pic.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.image{
+  background:url(img.png);
+  background-size:cover;
+  background-attachment:fixed;
+}
+.cnt{
+   
+   background:url(contact.png);
+  background-size:cover;
+  background-attachment:fixed;
+}
+.list{
+   background:url(list.png);
+  background-size:cover;
+  background-attachment:fixed;
+
+}
+}
+header {
+  background-color:none;
+  padding: 20px;
+}
+.logo{
+  color:#ff7200;
+  font-size: 40px;
+  font-family:sans-serif;
+  padding-left:20px;
+  padding-top:10px;
+  margin-bottom:0px;
+  margin-top:0px;
+   transition:0.4s ease-in-out;
+}
+.logo:hover
+{
+  color:white;
+}
+
+nav ul {
+  float:left;
+  justify-content:center;
+  align-items:center;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 150px;
+  margin right:60px;
+  margin-top:20px;
+  font-size:16px;
+  list-style:none;
+
+
+
+}
+
+nav a {
+
+  text-decoration: none;
+  color: white;
+  font-family:Arial;
+  font-weight:bold;
+  transition:0.4s ease-in-out;
+}
+ul li a:hover{
+  color:orange;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  font-size:30px;
+  width:1200px;
+  height:auto;
+  position:relative;
+}
+.about h1{
+ font-family:'Times New Roman';
+font-size:60px;
+padding-left:20px;
+letter-spacing:2px;
+margin-top:2px;
+margin-bottom:0px;
+}
+.about h3
+{
+  font-family:'Times New Roman';
+font-size:30px;
+padding-left:1px;
+margin-top:20px;
+letter-spacing:2px;
+color:#ff7200;
+margin-bottom:0px;
+
+}
+.services ul{
+  margin-top:350px;
+  margin-left:550px;
+  color:purple;
+  font-size:auto;
+  font-family:'Times New Roman';
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  margin-bottom:none;
+  margin-top:0px;
+  color:white;
+}
+
+
+
+}
+.btn1{
+  background-color: #white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+}
+.search {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid whiten;
+  color:#fff;
+}
+
+.btn[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  border: 2px solid gray;
+  background-color: white;
+  margin-bottom:auto;
+}
+.srch{
+  font-family:times new roman;
+  width:200px;
+  height:40px;
+  background:transparent;
+  border:1px solid orange;
+
+
+}
+.button {
+  background-color: #white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #ff7200;
+}
+.par{
+  color:black;
+width:1200px;
+height:auto;
+margin-top:50px;
+position:relative;
+font-family:'Times New Roman';
+padding:10px;
+background-color:lightblue;
+margin-bottom:5px;
+margin-right:0px;
+
+}
+
+}
+.list{
+  padding:10px;
+}
+.list a{
+  text-decoration: none;
+  color: white;
+  font-family:Arial;
+  font-weight:bold;
+ margin-left:8px;
+ margin-top:auto;
+}
+.list img{
+  width:200px;
+  height:auto;
+  margin-bottom:40px;
+  margin-left:50px;
+}
+.list img:hover{
+  background-color:skyblue;
+}
+.list a{
+ margin-top:auto;
+ padding:20px;
+
+}
+.list h3{
+  color:white;
+  font-size:15px;
+  text-align:center;
+  font-family:'Times New Roman';
+}
+.list h1{
+   color:#ff7200;
+  font-family:'Arial black';
+  font-weight:bold;
+ margin-top:auto;
+ text-align:center;
+}
+.list h1:hover{
+  color:white;
+}
+.list button{
+  background-color: #white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+margin-left:1100px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  color:#ff7200;
+  font-size:25px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}
+.contact{
+   color:#ff7200;
+  font-size: 40px;
+  font-family:sans-serif;
+  padding-left:20px;
+  padding-top:10px;
+  margin-bottom:20px;
+  margin-top:10px;
+   transition:0.4s ease-in-out;
+   text align:center;
+
+}
